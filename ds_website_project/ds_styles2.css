@@ -1,0 +1,88 @@
+@charset "utf-8";
+/*
+filename: ds_styles2.css
+Author: Ethan Amsden
+Date: 05/15/2021
+*/
+
+/* Article Styles*/
+article.sub {
+	padding: 30px;
+}
+
+article h1#note {
+	position: relative;
+	left: 3%;
+}
+
+article.sub p {
+	position: relative;
+	left: 10%;
+	width: 80%;
+}
+
+/* Section Styles*/
+section#leftColumn h1 {
+	border-bottom: 5px ridge gray;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+section.join {
+	padding: 30px;
+}
+
+section.join h1 {
+	text-decoration: underline;
+}
+
+/* Figure Styles*/
+figure {
+	position: relative;
+	left: 13%;
+	width: 80%;
+}
+
+figure img, figcaption, figure > input {
+	position: relative;
+	left: 27%;
+}
+
+figure img {
+	border: 10px ridge rgb(35, 35, 5);
+	height: 500px;
+	width: 350px;
+}
+
+figcaption {
+	position: relative;
+	left: 27%;
+	margin: 10px 0px;
+	font-size: 1.2em;
+	
+}
+
+figure input {
+	background-color: rgb(90, 56, 37);
+	color: white;
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-left: 20%;
+	padding: 5px;
+}
+
+/* Div Styles*/
+div {
+	width: 90%;
+	margin: 50px;
+}
+
+div h1#note {
+	border-top: 5px ridge gray;
+	border-bottom: none;
+	text-align: center;
+}
+
+div p {
+	border-bottom: 5px ridge gray;
+}

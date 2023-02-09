@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!--
+	Filename: jb_character_creation_form.html
+	Author: Ethan Amsden
+	Date: 11/2/2022
+	-->
+	<meta charset="utf-8" />
+	<meta name="keywords" content="Joe, board, games, fantasy, medieval, space" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Character Creation Form</title>
+	<link href="jb_layout2.css" rel="stylesheet" media="screen"/>
+	<link href="jb_form.css" rel="stylesheet" media="screen"/>
+	<link href="jb_mobile.css" rel="stylesheet" media="screen"/>
+</head>
+<body>
+	<header class="brown-header">
+		<div id="forminstructions">
+			<p>Fill out the form to create a character and/or join our monthly updates 
+			list. We will have your character prototype sent back in 30 days. <b>Boxes 
+			with an * are required</b>.</p>
+		</div>
+	</header>
+	
+	<div id="formsheet">
+		<form id="charactercreation">
+		
+			<label for="email">*Email</label><br>
+			<input type="text" id="email" name="email"><br><br>
+			
+			<label for="name">*Name (First Last)</label><br>
+			<input type="text" id="name" name="name"><br><br>
+			
+			<label for="character-class">*Character Class</label><br>
+			<input type="text" id="character-class" name="character-class"><br><br>
+			
+			<label for="character-name">Character Name</label><br>
+			<input type="text" id="character-name" name="character-name"><br><br>
+			
+			<label for="movement-ability">Special Movement Ability</label><br>
+			<input type="text" id="movement-ability" name="movement-ability"><br><br>
+			
+			<label for="attack-ability">Special Attack Ability</label><br>
+			<input type="text" id="attack-ability" name="attack-ability"><br><br>
+			
+			<label for="defense-ability">Special Defense Ability</label><br>
+			<input type="text" id="defense-ability" name="defense-ability"><br><br>
+			
+			<label for="weapon">Weapon</label><br>
+			<input type="text" id="weapon" name="weapon"><br><br>
+			
+			<label for="description">*Description</label><br>
+			<textarea id="description" name="description" rows="8"></textarea>
+			
+		</form>
+	</div>
+	
+	<footer class="brown-footer">
+		<div id="footer">
+			<button class="jb-button2" onclick="history.back()">Back</button>
+			<a class="jb-button2" href="jb_home.html">Home</a>
+			<button class="jb-button2" type="submit" value="submit" form="character-creation">Submit</button>
+		</div>
+	</footer>
+</body>
+</html>

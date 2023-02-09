@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*
+filename: jb_styles1.css
+Author: Ethan Amsden
+Date: 11/29/2022
+*/
+
+/*header styles */
+nav.horizontal ul {
+	list-style-type: none;
+}
+
+nav.horizontal li a, nav.horizontal li button {
+	display: block;
+	background-color: #D09C68;
+	color: black;
+	border: 2px solid #00A1D7;
+	border-radius: 15px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav.horizontal li a:hover, nav.horizontal li button:hover {
+	background-color: rgb(100, 100, 100);
+	color: white;
+	text-decoration: underline;
+}

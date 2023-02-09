@@ -1,0 +1,99 @@
+@charset "utf-8";
+/*
+filename: eja_layout.css
+Author: Ethan Amsden
+Date: 02/02/23
+*/
+
+/* #0F0F14 */
+/* #009900 */
+/* #007700 */
+/* white */
+
+/*html and body Style Basics*/
+html {
+	background-color: #0F0F14;
+	color: white;
+}
+
+body {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	margin:0;
+}
+
+/* anchor styles*/
+a {
+	color: white;
+}
+
+a:visited {
+	color: #009900;
+}
+
+.white a {
+	color: #0F0F14;
+}
+
+.white a:visited {
+	color: #007700;
+}
+/* article styles */
+
+
+/* div styles*/
+div.projgroup > img {
+	height: 15em;
+	width: 15em;
+}
+
+div#projlist {
+	background-color: rgb( 180, 180, 200);
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	justify-content: center;
+	margin: .5em 0 0 0;
+}
+
+div.projgroup > img {
+	width: 15em;
+}
+
+div.sectiontitle {padding: 0 0 .5em 0;}
+
+/* header styles */
+header, footer {padding: .5em;}
+
+hr {
+	background-color: white;
+	border: none;
+	height: 2px;
+	left: auto;
+	margin: 0 0 .5em 0;
+	position: absolute;
+	width: 11em;
+}
+
+hr.white {
+	background-color: #0F0F14;
+}
+
+/* list styles*/
+li {
+	list-style-type: none;
+}
+
+/* section style */
+section.black, section.white {padding: .5em;}
+
+section.white {
+	background-color: white;
+	color: #0F0F14;
+}
+
+section#home {height: 80vh;}
+
+section#home img#mypicture {
+	margin: 0 auto;
+	object-fit: fill;
+}

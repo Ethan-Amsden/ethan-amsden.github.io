@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*
+filename: jb_about_joe_bartner.css
+Author: Ethan Amsden
+Date: 11/29/2022
+*/
+
+article.sub {padding-bottom: 17px;}
+
+article.sub h2 {
+	font-size: 20px;
+	line-height: 40px;
+	margin-bottom: 0px; 
+}
+
+article.sub p {
+	font-size: 20px;
+	line-height: 25px;
+	margin-top: 2px;
+}
+
+p#signed {
+	font-size: 20px;
+	margin: 35px 0px 35px 0px;
+}
+
+section#bibliography {
+	padding: 0% 25%;
+}
+
+section#bibliography h1 {
+	font-size: 40px;
+	padding: 5px 0px;
+	text-align: center;
+}

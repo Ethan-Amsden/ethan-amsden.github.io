@@ -1,0 +1,131 @@
+@charset "utf-8";
+/*
+filename: ds_styles1.css
+Author: Ethan Amsden
+Date: 05/15/2021
+*/
+
+/* Body Styles */
+body {
+	box-shadow: rgb(51, 51, 51) 15px -100px 25px,
+				rgb(51, 51, 51) -15px -100px 25px;
+}
+
+body > header {
+	background-color: rgb(90, 56, 37);
+}
+
+body > header > img {
+	border: 4px ridge rgb(35, 35, 5);
+	border-radius: 75px 75px 0px 0px;
+}
+
+/* Header Styles */
+h1#webtitle {
+	position: relative;
+	left: 25%;
+	border: 10px ridge rgb(35, 35, 5);
+	border-radius: 50% 50% 0% 0%;
+	font-family: Brush Script MT;
+	font-size: 5em;
+	line-height: 1.2;
+	text-decoration: underline;
+	width: 50%;
+}
+
+/* Navigation Styles */
+nav.horizontal {
+	background-color: rgb(90, 56, 37);
+	border: 5px solid rgb(40, 29, 23);
+	border-bottom: 5px dashed rgb(40, 29, 23);
+	padding: 0px;
+}
+
+nav.horizontal > ul > li {
+	border: thin solid rgba(40, 29, 23,1.0);
+	border-bottom: none;
+    border-collapse: collapse;
+	padding: 3px;
+}
+
+nav.horizontal a {
+	color: black;
+	font-weight: bolder;
+}
+
+nav.horizontal li a:hover {
+	display: block;
+	background-color: rgb(100, 100, 100);
+	color: white;
+	text-decoration: underline;
+}
+
+nav#worldbuildlinks ul li a {
+	color: rgb(110, 110, 110);
+    font-weight: bolder;
+}
+
+nav#worldbuildlinks ul li a:hover {
+	display: block;
+	background-color: black;
+	color: white;
+	text-decoration: underline;
+}
+
+/* Aside Styles */
+aside {
+	background: rgb(45, 45, 15);
+    border: 5px ridge rgb(25, 25, 0);
+    border-radius: 30% 30% 0% 0%;
+}
+
+aside ul {
+	border: 3px ridge rgb(25, 25, 0);
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+aside p#notice {
+	border: 3px ridge rgb(25, 25, 0);
+	margin-bottom: 0;
+}
+
+aside p#links {
+	background-color: black;
+	border-radius: 10% 10% 0% 0%;
+	border: 3px solid rgb(25, 25, 0);
+}
+
+/* Article Styles */
+article > h1{
+	color: black;
+	font-family: Brush Script MT;
+	font-size: 2.5em;
+	margin: 10px 0px 15px 40px;
+}
+
+article > p {
+	color: black;
+	font-size: 1.2em;
+    line-height: 1.4em;
+	margin-bottom: 25px;
+}
+
+article.main h1#Don {
+	color: black;
+	font-family: Brush Script MT;
+	font-size: 3em;
+	line-height: 1.5em;
+}
+
+article.sub h1 {
+	font-family: Brush Script MT;
+	font-size: 2.5em;
+	margin-top: 10px;
+	margin-left: 40px;
+	text-decoration: underline;
+}
+
+article.sub p {
+	margin-left: 40px;
+}

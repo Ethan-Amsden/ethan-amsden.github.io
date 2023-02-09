@@ -1,0 +1,52 @@
+@charset "utf-8";
+/*
+filename: ds_layout1.css
+Author: Ethan Amsden
+Date: 05/15/2021
+*/
+
+/* Hidden Objects */
+nav.horizontal, aside, footer {
+	display: none;
+}
+
+
+/* Page Box Styles */
+@page {
+	size: 8.5in 11in;
+	margin: 0.5in;
+}
+
+/* Header Styles */
+
+body > header {
+   text-align: center;
+}
+
+body > header > img {
+   display: block;
+   margin: 0in 2.5in 0in 2.5in;
+   height: 2in;
+   width: 2in;
+}
+
+/* Typography Styles */
+h1 {
+	font-size: 18pt;
+	line-height: 30pt;
+	margin: 0.3in 0.3in 0.2in 0.3in;
+}
+
+h1#Don {
+	font-size: 24pt;
+	margin: 0.1in 2in 0.1in 2in;
+}
+
+h1#webtitle {
+	font-size: 32pt;
+}
+
+p {
+	font-size: 12pt;
+	margin: 0.1in 0in 0.1in 0.3in;
+}

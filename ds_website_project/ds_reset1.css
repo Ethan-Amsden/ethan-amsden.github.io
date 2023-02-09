@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*
+filename: ds_reset.css
+Author: Ethan Amsden
+Date: 05/15/2021
+*/
+
+article, aside, body, cite,
+figcaption, figure, footer, 
+h1, h2, header, html, img, 
+li, nav, p, section, ul {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+article, aside, figcaption, figure,
+footer, header, nav, section { 
+   display: block;
+}
+
+nav ul {
+   list-style-type: none;
+}
+
+nav a {
+   text-decoration: none;
+}
+
+body {
+   line-height: 1.2em;
+}
+
+

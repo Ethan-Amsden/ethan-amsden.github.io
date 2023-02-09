@@ -1,0 +1,60 @@
+@charset "utf-8";
+/*
+filename: cc_form.css
+Author: Ethan Amsden, Ben Hillman
+Date: 11/30/2022
+*/
+
+/* HTML & Body styles */
+body {
+	background-image: linear-gradient(45deg, #000000, #000352);
+	font-family: Roboto, Verdana, Geneva, Arial, sans-serif;
+	margin: 0;
+}
+
+/* error message styles */
+span {
+    color: red;
+    font-size: small;
+}
+
+/* div styles */
+div.outer {
+	
+	margin: 3% 0%;
+}
+
+div.background {
+	background-color: rgba(204, 204, 204, 0.5);
+	border: 2px solid rgb(200,200,200);
+	border-radius: 25px;
+	/*
+	background-image: linear-gradient(120deg, #FFFFFF 60%, #CCCCCC);
+	*/
+	margin: auto;
+    position: relative;
+    max-width: 440px;
+    width: calc(100% - 40px);
+    padding: 44px;
+}
+
+/* form styles */
+button.form-button {
+	background-color: white;
+	border-color: rgb(118, 118, 118);
+	border-radius: 5px;
+	border-style: ouset;
+	color: black;
+}
+
+fieldset#your-character {
+	border: none;
+}
+/*
+input, textarea {
+	border-radius: 5px;
+	border-style: inset;
+	border-width: 2px;
+	padding: 1px 2px;
+}
+*/

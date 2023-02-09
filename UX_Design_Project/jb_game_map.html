@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!--
+	Filename: jb_game_map.html
+	Author: Ethan Amsden
+	Date: 11/29/2022
+	-->
+	<meta charset="utf-8" />
+	<meta name="keywords" content="Joe, board, games, fantasy, medieval, space" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Joe's Game Map</title>
+	<link href="jb_layout2.css" rel="stylesheet" media="screen"/>
+	<link href="jb_game_map.css" rel="stylesheet" media="screen"/>
+	<link href="jb_mobile.css" rel="stylesheet" media="screen"/>
+</head>
+<body>
+	<header class="brown-header">
+		<div id="mapinstructions">
+			<p>Hello, Toru the cartographer here. Welcome to the Map of Perillasia. 
+			Choose any settlement to read about. I apologize for the inconvenience 
+			of how few available locations there are. We are still working on a 
+			mailing system, but there are pirates everywhere.</p>
+		</div>
+	</header>
+	
+	<div id="activeMap">
+	
+		<img src="jb_map.png" alt="Game Map" usemap="#gamemap" id="gameMap" width="512" height="680">
+		
+		<map name="gamemap">
+			<area shape="circle" coords="207,346,25" alt="Floating Treasure Island" href="jb_floating_treasure_island.html">
+			<area shape="circle" coords="384,379,25" alt="Lord Gordon's Castle" href="jb_lord_gordons_castle.html">
+			<area shape="circle" coords="208,489,25" alt="Amelia's Village" href="jb_amelias_village.html">
+		</map>
+		
+	</div>
+	
+	<footer class="brown-footer">
+		<div id="footer">
+			<button class="jb-button2" onclick="history.back()">Back</button>
+			<a class="jb-button2" href="jb_home.html">Home</a>
+			<a class="jb-button2" href="jb_character_creation_form.html">Create A Character!</a>
+		</div>
+	</footer>
+</body>
+</html>
