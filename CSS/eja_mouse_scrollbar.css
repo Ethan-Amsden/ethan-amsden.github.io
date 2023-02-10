@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*
+filename: eja_mouse_scrollbar.css
+Author: Ethan Amsden
+Date: 01/06/2023
+*/
+
+/* scrollbar styles */
+/* width */
+::-webkit-scrollbar {
+	width: 15px;
+	z-index: 5;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	/*visibility: hidden;*/
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #009900;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #007700;
+}
+
+/* up/down arrows */
+::-webkit-scrollbar-button {
+	background-color: #009900;
+	visibility: visible;
+}
+
+::-webkit-scrollbar-button:single-button {
+  background-color: #009900;
+  display: block;
+  border-style: solid;
+  height: 13px;
+  width: 15px;
+}
+
+/* Up */
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0 8px 8px 8px;
+  border-color: transparent transparent #007700 transparent;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent rgb( 15, 15, 20) transparent;
+}
+
+/* Down */
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  border-width: 8px 8px 0 8px;
+  border-color: #007700 transparent transparent transparent;
+}
+
+::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+  border-color: rgb( 15, 15, 20) transparent transparent transparent;
+}
+
+/* mouse/cursor styles*/
+.pointer {cursor: pointer;}
