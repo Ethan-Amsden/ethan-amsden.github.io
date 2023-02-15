@@ -5,6 +5,109 @@ Author: Ethan Amsden
 Date: 02/02/23
 */
 
-@media only screen and (min-width: 300px) {
+@media only screen and (max-width: 767px) {
 	
+	/* article styles */
+	article#edisonplace {
+		align-content: center;
+		border: 5px solid #0F0F14;
+		border-radius: 50px;
+		display: flex;
+		flex-direction: column;
+		font-size: 1.2em;
+		gap: 0.5em;
+		margin: 0 auto;
+		padding: 1em;
+		max-width: 30em;
+	}
+	
+	article p {
+		padding: 0.5em 0;
+	}
+	
+	/* div styles */
+	div#edisoninfo > * {
+		padding: 0.5em;
+	}
+	
+	div#navigate {
+		margin: 0 auto;
+		width: 30%;
+	}
+	
+	div#profile h1 {
+		display: none;
+	}
+	
+	div.projgroup > img {
+		border-radius: 15px;
+		height: 10em;
+		opacity: 0.3;
+		width: 10em;
+	}
+	
+	div#projlist {
+		border-radius: 0 0 30px 30px;
+		gap: 2em;
+		padding: 0.5em;
+	}
+	
+	div#sites {
+		width: 30%;
+		margin: auto;
+	}
+	
+	div#skillist {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+	}
+	
+	div.skillgroup {
+		border: 2px solid white;
+		border-radius: 20px;
+		padding: 1em;
+	}
+	
+	div.skillgroup > h3{
+		padding: 0.5em;
+	}
+	
+	div#computerlangs ul {
+		margin: 0 auto;
+		width: 40%;
+	}
+	
+	div#topcontent {
+		display: flex;
+		flex-direction: column-reverse;
+		gap: 1em;
+		padding: 0;
+	}
+	
+	/* footer styles */
+	footer li {
+		border-bottom: 2px solid white;
+	}
+	
+	/* image styles */
+	img#edisonphoto {
+		border: 2px solid #0F0F14;
+		border-radius: 25px;
+		margin: 0 auto;
+	}
+	
+	img#me {
+		display: none;
+	}
+	
+	img#mypicture {
+		border: 2px solid #0F0F14;
+		border-radius: 10px;
+		width: 100%;
+	}
+	
+	section#home {
+		height: auto;
+	}
 }
