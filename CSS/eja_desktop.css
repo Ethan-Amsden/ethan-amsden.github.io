@@ -5,229 +5,229 @@ Author: Ethan Amsden
 Date: 02/03/23
 */
 
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {*/
 	
-	/* article styles */
-	article#edisonplace {
-		align-content: center;
-		border: 5px solid #0F0F14;
-		border-radius: 50px;
-		display: flex;
-		flex-direction: row;
-		font-size: 1.2em;
-		margin: 0 auto;
-		padding: 1em;
-		max-width: 30em;
-	}
-	
-	article#edisonplace p {
-		margin: 1.2em 0 0 0;
-	}
-	
-	article#edisonplace > h3, article#selfdescript > h4 {
-		margin: 0 0 0.5em 0;
-	}
-	
-	article#edisonplace > img#edisonphoto {
-		border: 2px solid #0F0F14;
-		border-radius: 25px;
-	}
-	
-	article p {
-		margin: 1.2em 0;
-	}
-
-	article#selfdescript, article#edisonplace,
-	div#skillist, div#projnavigate {
-		margin-top: 2%;
-	}
-
-	article#selfdescript {
-		font-size: 1.2em;
-		line-height: 1.3em;
-		margin: 2% auto 0 auto;
-		max-width: 30em;
-	}
-	
-	/* div styles */
-	div#edisoninfo {
-		padding: 0 0 0 1em;
-	}
-	
-	div#edisoninfo h3 {
-		padding: 0.5em;
-	}
-	
-	div img#me {
-		border: 5px solid #009900;
-		border-radius: 50px;
-	}
-	
-	div#navigate {
-		align-items: center;
-		display: flex;
-		margin: 0 auto;
-	}
-	
-	div#profile {
-		display: flex;
-		flex-direction: column;
-	}
-	
-	div#profile h1 {
-		font-size: 1.5em;
-		padding: 0.5em;
-		text-shadow: 8px 2px 8px #009900;
-	}
-	
-	div.projgroup > img {
-		border-radius: 50px;
-		opacity: 0.3;
-	}
-	
-	div#projlist {
-		border-radius: 0 0 30px 30px;
-		gap: 4em;
-		padding: 0.5em;
-	}
-	
-	div#sites {
-		align-items: center;
-		display: flex;
-	}
-	
-	div#sites ul {
-		border: 5px solid #009900;
-		border-radius: 15px;
-		margin: 0 0 0 5%;
-		padding: 0 1em;
-	}
-	
-	div#sites ul li {
-		display: flex;
-		justify-content: center;
-		padding: 0.5em;
-	}
-	
-	div#sites ul li:hover {
-		background-color: #009900;
-		border-radius: 10px;
-	}
-	
-	div#sites ul li a {
-		color: white;
-		font-size: 1.5em;
-		text-decoration: none;
-	}
-	
-	div.skillgroup {
-		border: 2px solid white;
-		border-radius: 20px;
-		display: flex;
-		flex-direction: column;
-		opacity: 0.5;
-		padding: 1em;
-		width: 17em;
-	}
-	
-	div#skillist {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 1em;
-	}
-	
-	div#topcontent {
-		display: flex;
-		flex-wrap: wrap;
-	}
-	
-	/* header styles */
-	header {
-		margin: 0;
-		padding: 1em;
-	}
-	
-	header div ul li a {
-		font-size: 1.5em;
-		text-decoration: none;
-	}
-	
-	h3.skillheading {padding: 0 0 0.5em 0;}
-	
-	/* footer styles */
-	footer ul {
-		justify-content: center;
-		display: flex;
-		flex-wrap: wrap;
-	}
-	
-	footer ul li {
-		border-right: 2px solid white; 
-		padding: 1em;
-	}
-	
-	footer ul li:last-child {
-		border-right: none;
-	}
-	
-	/* image styles */
-	img#mypicture {
-		border: 5px solid #0F0F14;
-		border-radius: 50px;
-		display: block;
-		height: 100%;
-	}
-	
-	/* nav styles */
-	nav.horizontal {
-		align-items: center;
-		border: 5px solid #009900;
-		border-radius: 15px;
-		display: flex;
-	}
-	
-	nav.horizontal img {
-		display: none;
-	}
-	
-	nav.horizontal ul {
-		display: flex;
-		flex-wrap: wrap;
-		padding: 0 1em;
-	}
-	
-	nav.horizontal ul li {
-		padding: 0.5em;
-	}
-
-	nav.horizontal ul li a {
-		color: white;
-		font-size: 1.5em;
-		text-decoration: none;
-	}
-	
-	nav.horizontal ul li:hover {
-		background-color: #009900;
-		border-radius: 10px;
-	} 
-	
-	/* section styles */	
-	section.black, section.white {		
-		margin: 0;
-		padding: 2em;
-	}
-	
-	section h2 {font-size: 2em;}
-	
-	section hr {margin: 0.5em 0;}
-	
-	section#home > h2#myname {
-		font-size: 2em;
-		position: absolute;
-		top: 70%;
-		left: 15%;
-		transform: translate(-50%, 0);
-	}
-	
+/* article styles */
+article#edisonplace {
+	align-content: center;
+	border: 5px solid #0F0F14;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: row;
+	font-size: 1.2em;
+	margin: 0 auto;
+	padding: 1em;
+	max-width: 30em;
 }
+
+article#edisonplace p {
+	margin: 1.2em 0 0 0;
+}
+
+article#edisonplace > h3, article#selfdescript > h4 {
+	margin: 0 0 0.5em 0;
+}
+
+article#edisonplace > img#edisonphoto {
+	border: 2px solid #0F0F14;
+	border-radius: 25px;
+}
+
+article p {
+	margin: 1.2em 0;
+}
+
+article#selfdescript, article#edisonplace,
+div#skillist, div#projnavigate {
+	margin-top: 2%;
+}
+
+article#selfdescript {
+	font-size: 1.2em;
+	line-height: 1.3em;
+	margin: 2% auto 0 auto;
+	max-width: 30em;
+}
+
+/* div styles */
+div#edisoninfo {
+	padding: 0 0 0 1em;
+}
+
+div#edisoninfo h3 {
+	padding: 0.5em;
+}
+
+div img#me {
+	border: 5px solid #009900;
+	border-radius: 50px;
+}
+
+div#navigate {
+	align-items: center;
+	display: flex;
+	margin: 0 auto;
+}
+
+div#profile {
+	display: flex;
+	flex-direction: column;
+}
+
+div#profile h1 {
+	font-size: 1.5em;
+	padding: 0.5em;
+	text-shadow: 8px 2px 8px #009900;
+}
+
+div.projgroup > img {
+	border-radius: 50px;
+	opacity: 0.3;
+}
+
+div#projlist {
+	border-radius: 0 0 30px 30px;
+	gap: 4em;
+	padding: 0.5em;
+}
+
+div#sites {
+	align-items: center;
+	display: flex;
+}
+
+div#sites ul {
+	border: 5px solid #009900;
+	border-radius: 15px;
+	margin: 0 0 0 5%;
+	padding: 0 1em;
+}
+
+div#sites ul li {
+	display: flex;
+	justify-content: center;
+	padding: 0.5em;
+}
+
+div#sites ul li:hover {
+	background-color: #009900;
+	border-radius: 10px;
+}
+
+div#sites ul li a {
+	color: white;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+div.skillgroup {
+	border: 2px solid white;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	opacity: 0.5;
+	padding: 1em;
+	width: 17em;
+}
+
+div#skillist {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1em;
+}
+
+div#topcontent {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* header styles */
+header {
+	margin: 0;
+	padding: 1em;
+}
+
+header div ul li a {
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+h3.skillheading {padding: 0 0 0.5em 0;}
+
+/* footer styles */
+footer ul {
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer ul li {
+	border-right: 2px solid white; 
+	padding: 1em;
+}
+
+footer ul li:last-child {
+	border-right: none;
+}
+
+/* image styles */
+img#mypicture {
+	border: 5px solid #0F0F14;
+	border-radius: 50px;
+	display: block;
+	height: 100%;
+}
+
+/* nav styles */
+nav.horizontal {
+	align-items: center;
+	border: 5px solid #009900;
+	border-radius: 15px;
+	display: flex;
+}
+
+nav.horizontal img {
+	display: none;
+}
+
+nav.horizontal ul {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 1em;
+}
+
+nav.horizontal ul li {
+	padding: 0.5em;
+}
+
+nav.horizontal ul li a {
+	color: white;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+nav.horizontal ul li:hover {
+	background-color: #009900;
+	border-radius: 10px;
+} 
+
+/* section styles */	
+section.black, section.white {		
+	margin: 0;
+	padding: 2em;
+}
+
+section h2 {font-size: 2em;}
+
+section hr {margin: 0.5em 0;}
+
+section#home > h2#myname {
+	font-size: 2em;
+	position: absolute;
+	top: 70%;
+	left: 15%;
+	transform: translate(-50%, 0);
+}
+	
+/*}*/
