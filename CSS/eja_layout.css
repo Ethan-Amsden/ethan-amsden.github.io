@@ -94,6 +94,6 @@ section.white {
 section#home {height: 80vh;}
 
 section#home img#mypicture {
-	margin: 0 auto;
+	margin: 0 10% 0 0;
 	object-fit: fill;
 }

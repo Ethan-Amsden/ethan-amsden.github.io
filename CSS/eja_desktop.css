@@ -5,9 +5,17 @@ Author: Ethan Amsden
 Date: 02/03/23
 */
 
-/*@media only screen and (min-width: 768px) {*/
-	
 /* article styles */
+article#contactinfo {
+	margin: 0 auto;
+	padding: 0;
+}
+
+article#contactinfo h2 {
+	font-size: 1.5rem;
+	line-height: 2.2rem;
+}
+
 article#edisonplace {
 	align-content: center;
 	border: 5px solid #0F0F14;
@@ -31,6 +39,10 @@ article#edisonplace > h3, article#selfdescript > h4 {
 article#edisonplace > img#edisonphoto {
 	border: 2px solid #0F0F14;
 	border-radius: 25px;
+}
+
+article#myname {
+	line-height: 1.2rem;
 }
 
 article p {
@@ -58,10 +70,12 @@ div#edisoninfo h3 {
 	padding: 0.5em;
 }
 
+/*
 div img#me {
 	border: 5px solid #009900;
 	border-radius: 50px;
 }
+*/
 
 div#navigate {
 	align-items: center;
@@ -94,12 +108,13 @@ div#projlist {
 div#sites {
 	align-items: center;
 	display: flex;
+	flex-direction: column;
+	margin: auto auto;
 }
 
 div#sites ul {
 	border: 5px solid #009900;
 	border-radius: 15px;
-	margin: 0 0 0 5%;
 	padding: 0 1em;
 }
 
@@ -172,6 +187,10 @@ footer ul li:last-child {
 }
 
 /* image styles */
+img#logoheader {
+	padding: 0.5rem;
+}
+
 img#mypicture {
 	border: 5px solid #0F0F14;
 	border-radius: 50px;
@@ -218,16 +237,15 @@ section.black, section.white {
 	padding: 2em;
 }
 
-section h2 {font-size: 2em;}
-
 section hr {margin: 0.5em 0;}
 
-section#home > h2#myname {
-	font-size: 2em;
-	position: absolute;
-	top: 70%;
-	left: 15%;
-	transform: translate(-50%, 0);
-}
+section#home {
+	display: flex;
+	flex-direction: row;
+	gap: 7rem;
 	
-/*}*/
+}
+
+section#home img#mypicture {
+	margin: 0;
+}
