@@ -7,13 +7,16 @@ Date: 02/03/23
 
 /* article styles */
 article#contactinfo {
+	/*border: 5px solid rgb(180, 180, 200);
+    border-radius: 25px;*/
 	margin: auto auto;
-	padding: 0;
+	padding: 0.2rem;
 }
 
 article#contactinfo h2 {
 	font-size: 1.5rem;
 	line-height: 2.2rem;
+	text-align: center;
 }
 
 article#edisonplace {
@@ -94,7 +97,7 @@ div#profile h1 {
 	text-shadow: 8px 2px 8px #009900;
 }
 
-div.projgroup > img {
+div.projgroup a > img {
 	border-radius: 50px;
 	opacity: 0.3;
 }
@@ -128,14 +131,17 @@ div#sites ul li {
 	padding: 0.5em;
 }
 
-div#sites ul li:hover {
-	background-color: #009900;
-	border-radius: 10px;
+div#sites ul li a {
+	color: #005400;
+	font-size: 1.5em;
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
 }
 
-div#sites ul li a {
-	font-size: 1.5em;
-	/*text-decoration: none;*/
+div#sites ul li a:hover {
+	background-color: #009900;
+	border-radius: 10px;
+	color: white;
 }
 
 div.skillgroup {
@@ -160,16 +166,44 @@ div#topcontent {
 	flex-wrap: wrap;
 }
 
-/* header styles */
-header {
-	margin: 0;
-	padding: 1em;
-}
 
-header div ul li a {
-	font-size: 1.5em;
+/* header styles */
+
+header a {
+	color: white;
+	display: block;
+	font-size: 1.5rem;
+	padding: 6px 8px 6px 16px;
 	text-decoration: none;
 }
+
+header a:hover {
+	background-color: #009900;
+	border-radius: 10px;
+}
+
+header h1 {
+	/*-- Gradient Text --*/
+	background: linear-gradient(to right, #009900, white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/*----*/
+	font-size: 1rem;
+	padding: 0 0 2.9rem 0;
+}
+
+header#toppanel {
+	background-color: #111;
+	border-right: 5px solid #008800;
+	height: 100%;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+	position: fixed;
+	top: 0;
+	width: 10rem;
+	z-index: 1;
+} 
 
 h3.skillheading {padding: 0 0 0.5em 0;}
 
@@ -195,44 +229,18 @@ img#logoheader {
 }
 
 img#mypicture {
+	/*aspect-ratio: 1/1;*/
 	border: 5px solid #0F0F14;
 	border-radius: 50px;
 	display: block;
-	height: 100%;
+	height: 25rem;
+	width: 25rem;
 }
+
+/* main styles */
+main.main {margin-left: 10rem;}
 
 /* nav styles */
-nav.horizontal {
-	align-items: center;
-	/*border: 5px solid #009900;*/
-	border-radius: 15px;
-	display: flex;
-}
-
-nav.horizontal img {
-	display: none;
-}
-
-nav.horizontal ul {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0 1em;
-}
-
-nav.horizontal ul li {
-	padding: 0.5em;
-}
-
-nav.horizontal ul li a {
-	color: white;
-	font-size: 1.5em;
-	text-decoration: none;
-}
-
-nav.horizontal ul li:hover {
-	background-color: #009900;
-	border-radius: 10px;
-} 
 
 /* section styles */	
 section.black, section.white {		
@@ -245,10 +253,27 @@ section hr {margin: 0.5em 0;}
 section#home {
 	display: flex;
 	flex-direction: row;
-	gap: 7rem;
+	margin: auto auto;
 	
 }
 
 section#home img#mypicture {
-	margin: 0;
+	margin: auto 0;
+}
+
+section p.note {
+	margin: 2% 0 0 0;
+}
+
+section#top {
+	/*-- Gradient Text --*/
+	background: linear-gradient(to right, #009900, white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/*----*/
+	font-size: 5rem;
+	line-height: 5.2rem;
+	margin: 0 auto;
+	padding: 3rem 0;
+	width: 60%;
 }

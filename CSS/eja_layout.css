@@ -26,10 +26,6 @@ a {
 	color: white;
 }
 
-a:visited {
-	color: #009900;
-}
-
 .white a {
 	color: #0F0F14;
 }
@@ -41,7 +37,7 @@ a:visited {
 
 
 /* div styles*/
-div.projgroup > img {
+div.projgroup a > img {
 	height: 15em;
 	width: 15em;
 }

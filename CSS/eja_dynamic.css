@@ -6,6 +6,9 @@ Date: 01/06/2023
 */
 
 /*html and body Style Basics*/
+html {
+	scroll-behavior: smooth;
+}
 
 /* dynamic styles */
 
@@ -16,8 +19,8 @@ div.skillgroup:hover {
 	transition: all 1s ease-out;
 }
 
-div.projgroup > img:hover {
-	box-shadow: 15px 15px 20px 10px #000000;
+div.projgroup a > img:hover {
+	box-shadow: 15px 15px 20px 10px #444444;
 	opacity: 1;
 	-webkit-transition: all 1s ease-out;
 	transition: all 1s ease-out;
