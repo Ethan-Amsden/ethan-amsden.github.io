@@ -245,7 +245,7 @@ main.main {margin-left: 10rem;}
 /* section styles */	
 section.black, section.white {		
 	margin: 0;
-	padding: 2em;
+	padding: 1rem;
 }
 
 section hr {margin: 0.5em 0;}
