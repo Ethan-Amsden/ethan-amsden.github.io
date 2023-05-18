@@ -38,6 +38,7 @@ a {
 
 /* div styles*/
 div.projgroup a > img {
+	display: block;
 	height: 15em;
 	width: 15em;
 }
@@ -52,7 +53,7 @@ div#projlist {
 }
 
 div.projgroup > img {
-	width: 15em;
+	width: 50%;
 }
 
 div.sectiontitle {padding: 0 0 .5em 0;}

@@ -7,8 +7,6 @@ Date: 02/03/23
 
 /* article styles */
 article#contactinfo {
-	/*border: 5px solid rgb(180, 180, 200);
-    border-radius: 25px;*/
 	margin: auto auto;
 	padding: 0.2rem;
 }
@@ -97,9 +95,10 @@ div#profile h1 {
 	text-shadow: 8px 2px 8px #009900;
 }
 
+
 div.projgroup a > img {
 	border-radius: 50px;
-	opacity: 0.3;
+	opacity: 1;
 }
 
 div#projlist {
