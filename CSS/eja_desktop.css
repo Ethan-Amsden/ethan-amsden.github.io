@@ -122,18 +122,22 @@ div#sites ul {
 	/*border: 5px solid #009900;*/
 	border-radius: 15px;
 	padding: 0 1em;
+	display: flex;
+  	flex-flow: row wrap;	
+	margin: 0 50%;
 }
 
 div#sites ul li {
 	display: flex;
+	float: left;
 	justify-content: center;
-	padding: 0.5em;
+	padding: 1em; /*0.5em;*/
 }
 
 div#sites ul li a {
 	color: #005400;
 	font-size: 1.5em;
-	padding: 6px 8px 6px 16px;
+	padding: 8px;
 	text-decoration: none;
 }
 

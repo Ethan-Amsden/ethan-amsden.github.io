@@ -73,3 +73,11 @@ section#skills ul li a:hover,
 	-webkit-transition: all 1s ease-out;
 	transition: all 1s ease-out;
 }
+
+section#home div#sites ul li a:hover{
+	background-color: white;
+	border-radius: 0;
+  color: #009900;
+	-webkit-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
