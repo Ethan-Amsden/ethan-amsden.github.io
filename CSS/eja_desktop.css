@@ -188,7 +188,7 @@ header a:hover {
 header h1 {
 	/*-- Gradient Text --*/
 	background: linear-gradient(to right, #009900, white);
-	-webkit-background-clip: text;
+	/*-webkit-background-clip: text;*/
 	-webkit-text-fill-color: transparent;
 	/*----*/
 	font-size: 1rem;
@@ -271,7 +271,7 @@ section p.note {
 section#top {
 	/*-- Gradient Text --*/
 	background: linear-gradient(to right, #009900, white);
-	-webkit-background-clip: text;
+	/*-webkit-background-clip: text;*/
 	-webkit-text-fill-color: transparent;
 	/*----*/
 	font-size: 5rem;
