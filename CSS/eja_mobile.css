@@ -221,7 +221,7 @@ Date: 02/02/23
 		border-radius: 10px 10px 0 0;
 	}
 	
-	header#toppanel a:nth-of-type(6) {
+	header#toppanel a:nth-of-type(5) {
 		border-bottom: 2px solid white;
 		border-radius: 0 0 10px 10px;
 	}
